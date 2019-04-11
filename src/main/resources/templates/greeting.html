@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<p th:text="'Hello, ' + ${name} + '!'" />
+	<table>
+		<th:block th:each="per : ${personas}">
+		<tr>
+			<td th:text="${per.idPersona}"></td>
+			<td th:text="${per.nombre}"></td>
+		</tr>
+	</table>
+</body>
+</html>
