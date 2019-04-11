@@ -10,6 +10,8 @@ HELP.md
 .settings
 .springBeans
 .sts4-cache
+.mvn/wrapper
+mvnw
 
 ### IntelliJ IDEA ###
 .idea
